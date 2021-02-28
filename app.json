@@ -1,5 +1,5 @@
 {
-    "name": "Ultroid UserBot",
+    "name": "Sasta nakli bot ",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
     "keywords": ["Telethon", "telegram", "userbot", "python"],
@@ -10,11 +10,11 @@
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": ""
+            "value": "1942303"
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": ""
+            "value": "5621d2a5b0c49ae25db1770e5bc3e4fc"
         },
         "BOT_USERNAME": {
             "description": "Make a bot from @BotFather, and enter it's username here, with '@'",
@@ -26,28 +26,32 @@
         },
         "SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
-            "value": ""
+            "value": "."
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": ""
+            "value": "redis-12823.c14.us-east-1-3.ec2.cloud.redislabs.com:12823"
         },
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
-            "value": ""
+            "value": "ChjsnEs9JnWO350yvV1GaGFsPKJc0oHA"
         },
         "HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
-            "value": "",
+            "value": "later",
             "required": false
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
-            "value": ""
+            "value": "later"
         },
         "LOG_CHANNEL": {
             "description": "Create a private group. Add @missrose_bot and your BOT_USERNAME bot. Do /id. Paste that here",
              "value": ""
+        }
+        "ADDONS": {
+            "description": "Create a private group. Add @missrose_bot and your BOT_USERNAME bot. Do /id. Paste that here",
+             "value": "True"
         }
     }
 }
